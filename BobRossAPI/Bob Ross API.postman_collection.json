@@ -1,0 +1,72 @@
+{
+	"info": {
+		"_postman_id": "0d11e402-5825-4dcb-9879-7683de2c8627",
+		"name": "Bob Ross API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET Request Single",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.bobross.dev/api",
+					"protocol": "https",
+					"host": [
+						"api",
+						"bobross",
+						"dev"
+					],
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Request Multiple",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST Request Example",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"value\": 3\n}"
+				},
+				"url": {
+					"raw": "https://api.bobross.dev/api/",
+					"protocol": "https",
+					"host": [
+						"api",
+						"bobross",
+						"dev"
+					],
+					"path": [
+						"api",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
